@@ -140,3 +140,13 @@ nav a:hover {
     background: #b56cff;
     transform: scale(1.05);
 }
+.instagram {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 30px;
+    background: #8a2be2;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 18px;
+}
