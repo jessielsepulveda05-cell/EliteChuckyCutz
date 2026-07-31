@@ -83,3 +83,18 @@ footer {
     padding: 20px;
     background: #1a0033;
 }
+nav {
+    margin-bottom: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #b56cff;
+}
