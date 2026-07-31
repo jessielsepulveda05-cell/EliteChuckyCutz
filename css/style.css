@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #080808;
+    color: white;
+}
+
+header {
+    background: linear-gradient(135deg, #140020, #5b00a8);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+nav {
+    margin-bottom: 35px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #d8a7ff;
+}
+
+header h1 {
+    font-size: 48px;
+    color: #d8a7ff;
+    letter-spacing: 2px;
+}
+
+header p {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+    animation: fadeIn 1.5s ease;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: #ddd;
+    font-size: 18px;
+}
+
+.buttons {
+    margin-top: 35px;
+}
+
+.buttons a,
+.instagram {
+    display: inline-block;
+    background: #8a2be2;
+    color: white;
+    padding: 15px 30px;
+    margin: 8px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.buttons a:hover,
+.instagram:hover {
+    background: #b56cff;
+    transform: scale(1.05);
+}
+
+.services {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #151515;
+    max-width: 320px;
+    margin: 15px auto;
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px solid #8a2be2;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #d8a7ff;
+    font-size: 25px;
+}
+
+.card p {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #140020;
+    margin-top: 50px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
