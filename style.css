@@ -117,3 +117,26 @@ nav a:hover {
 .gallery img:hover {
     transform: scale(1.03);
 }
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.buttons a {
+    display: inline-block;
+    padding: 14px 28px;
+    background: #8a2be2;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.buttons a:hover {
+    background: #b56cff;
+    transform: scale(1.05);
+}
