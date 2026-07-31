@@ -6,134 +6,80 @@
 }
 
 body {
-    background: #050505;
+    background: #0b0014;
     color: white;
+    text-align: center;
 }
-
-/* Navigation */
 
 header {
-    background: #000;
-    padding: 20px;
+    padding: 40px 20px;
+    background: #1a0033;
+    border-bottom: 2px solid #8a2be2;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header h1 {
+    font-size: 42px;
+    color: #b56cff;
 }
 
-nav h1 {
-    color: #a020f0;
-    font-size: 28px;
+header p {
+    margin-top: 10px;
+    font-size: 18px;
 }
-
-nav ul {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #a020f0;
-}
-
-
-/* Hero */
 
 .hero {
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    background:
-    linear-gradient(
-        rgba(0,0,0,.7),
-        rgba(0,0,0,.9)
-    );
+    padding: 60px 20px;
 }
-
 
 .hero h2 {
-    font-size: 50px;
-    margin-bottom: 20px;
+    font-size: 36px;
+    color: #d8a7ff;
 }
 
-
 .hero p {
-    font-size: 20px;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.hero a {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #8a2be2;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.services {
+    padding: 40px 20px;
+}
+
+.services h2 {
+    font-size: 32px;
     margin-bottom: 30px;
 }
 
-
-/* Button */
-
-.button {
-    background: #a020f0;
-    color: white;
-    padding: 15px 30px;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-
-.button:hover {
-    box-shadow: 0 0 25px #a020f0;
-}
-
-
-/* Sections */
-
-.about,
-.services {
-    padding: 70px 10%;
-    text-align: center;
-}
-
-
-.about h2,
-.services h2 {
-    font-size: 35px;
-    margin-bottom: 20px;
-}
-
-
-/* Cards */
-
-.cards {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    margin-top: 40px;
-}
-
-
 .card {
-    background: #111;
-    border: 1px solid #a020f0;
-    padding: 25px;
+    background: #160029;
+    margin: 15px auto;
+    padding: 20px;
+    max-width: 300px;
     border-radius: 15px;
-    width: 280px;
+    border: 1px solid #8a2be2;
 }
 
-
-.card:hover {
-    box-shadow: 0 0 20px #a020f0;
+.card h3 {
+    color: #c084fc;
+    font-size: 24px;
 }
 
-
-/* Footer */
+.card p {
+    font-size: 20px;
+    margin-top: 10px;
+}
 
 footer {
-    text-align: center;
-    padding: 25px;
-    background: black;
+    margin-top: 40px;
+    padding: 20px;
+    background: #1a0033;
 }
